@@ -1,1 +1,10 @@
 
+do { // Code block to execute } while (printEvenNumbers);
+let count = 0;
+do { console.log(count); count++; } while (count < 5);
+
+
+do { input = prompt("Tiffany:"); } while (!input); console.log("Hello, " + input + "!");
+
+let count = 0;
+do { console.log(count); if (count === 3) { break; // Terminate the loop when count is 3 } count++; } while (count < 5);
